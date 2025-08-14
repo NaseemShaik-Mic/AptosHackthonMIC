@@ -1,37 +1,37 @@
-# CuraVault – Decentralized-AI Health Records 🚀
+# CuraVault – Decentralized-AI Health Records 
 
 **Aptos Blockchain + IPFS solution** for secure, patient-controlled medical records.
 
 
-## ⚡ Key Features
+##  Key Features
 
-### 1️⃣ Patient Record Management
+### 1 Patient Record Management
 - Add & batch upload **medical files (PDF, images)** via IPFS.
 - Remove records anytime.
 - Track **timestamps** for creation & updates.
 
-### 2️⃣ Doctor Access Control
+### 2 Doctor Access Control
 - Grant/revoke individual doctor access.
 - Emergency **revoke all access** feature.
 - Prevent self-granting of access.
 - View list of authorized doctors (patient-only).
 
-### 3️⃣ Record Access & Security
+### 3 Record Access & Security
 - Only patient or authorized doctors can fetch records.
 - Metadata: creation time, last updated, record count, doctor count.
 - **CID validation** ensures proper IPFS format (`Qm...`).
 
-### 4️⃣ Event Tracking & Audit
+### 4 Event Tracking & Audit
 - **RecordAdded** – new record added.
 - **AccessGranted** – doctor access granted.
 - **AccessRevoked** – doctor access revoked.
 
-### 5️⃣ Admin & Testing
+###  5.Admin & Testing
 - View record counts per patient (admin-only).
 - Test helpers to simulate accounts and fetch record data.
 
 
-## 🔗 Public Functions
+##  Public Functions
 
 | Function | Description |
 |----------|-------------|
@@ -46,11 +46,18 @@
 | `has_access(patient, doctor)` | Check doctor access |
 
 
-## 🛡️ Security & Privacy
+##  Security & Privacy
 - On-chain storage under patient account.
 - Authorization enforced for all sensitive actions.
 - IPFS CIDs **store files off-chain**; only references on-chain.
 - Events provide **transparent audit trail**.
+
+## ScreenShots
+<img width="1307" height="635" alt="image" src="https://github.com/user-attachments/assets/22558750-a5ec-493a-83a5-7bcfcfedfb66" />
+<img width="1316" height="635" alt="image" src="https://github.com/user-attachments/assets/0ae46e1f-63f1-4197-ae80-aebf6ee8ab45" />
+##Developers
+SK.Naseem -DVR&Dr.H.S MIC college of Technology
+P.Sujith Kumar-DVr&Dr.H.S.MIC College of Technology
 
 
 
